@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Sansita&display=swap');
+
+/* #0d0037 blue */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Sansita' ;
+   
+}
+
+h1{
+    font-size: 60px;
+    line-height: 64px;
+    color:black;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    margin-top: -10%;
+}
+
+h2{
+    font-size: 54px;
+    line-height: 54px;
+    color:black;
+}
+
+h4{
+    font-size: 20px;
+    color:black;
+}
+
+h6{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    color: black;
+    margin: 15px 0 20px 0; 
+    display: flex;
+    padding: 5px 1px;
+    display: flex;
+    
+}
+
+.selection-p1 {
+    padding: 40px 80px;
+}
+
+.selection-m1 {
+    margin: 0px 0px;
+}
+
+body {
+    width: 100%;
+    
+}
+
+#header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px;
+    background: #439aae;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+#nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#nav li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+#nav li a{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #0d0037;
+    transition: 0.3s ease;
+}
+
+#nav li a:hover,
+#nav li a.opened{
+    color:white ;
+}
+
+#hero{
+    background-image: url("images/photoo1.jpg") ;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 95% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+
+}
+#hero p{
+    justify-content: left;
+    border: 10px;
+    padding: 10px 15px;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+    
+}
+
+#hero h1{
+    color: aliceblue;
+}
+
+#hero h2{
+    color: #c56612;
+}
+#hero button{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    text-decoration: none;
+}
+
+#hero button a{
+    text-decoration: none;
+    color: black;
+}
+
+#features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0%;
+}
+
+#features .f-box{
+    width: 120px;
+    text-align: center;
+    padding: 20px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 8px 0;
+
+}
+#features .f-box img{
+    width: 100%;
+   margin-bottom: 2px; 
+}
+
+#features .f-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color:black;
+    /*background-color:;
+    /*display: inline-block;*/
+
+
+}
+#product1 {
+    text-align: center;
+
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product1 .pro .des span{
+    color:gray;
+    font-size: 15px;
+
+}
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #0d0037;
+    font-size: 14px;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    border-color: #0d0037;
+    font-weight: 500;
+    color:#0d0037;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url("images/sneakers/banner3.jpg") ;
+    width: 100%;
+    height: 21vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h2{
+    font-size:50px;
+    color:grey;
+    
+}
+#banner h4{
+    font-size:14px;
+    color: grey;
+    
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 17px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+  
+    margin-top: 10px;
+}
+
+#sneakers-header{
+    background-image: url(images/sneakers/snshop6.jpg);
+    width:100%;
+    height:27vh;
+    filter:blur(2.5px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+}
+
+#prodetails .single-pro-image{
+    width: 100%;
+    margin-right: 50px;
+}
+
+#prodetails{
+    display: flex;
+    background-color: #F8F6F0;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details button{
+    background:#c56612;
+    color:white;
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#prodetails  .pro{
+    width: 80%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid orange;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+#prodetails  .pro img{
+    margin-bottom: 8px; 
+    width: 100%;
+}
+#about-head{
+    display: flex;
+    align-items: center;
+    background-color: #F8F6F0;
+}
+
+#about-head img{
+   width: 50vh;
+   height: 50vh;
+}
+
+#contacts{
+    background-color:#F8F6F0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+#contacts .details{
+    width: 50%;
+}
+
+#contacts .details span{
+    font-size: 12px;
+}
+
+#contacts .details h2,
+.form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contacts .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contacts .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contacts .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.form-details form{
+    
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.form-details form input,
+.form-details form textarea{
+    width: 500px;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid black;
+
+}
+.form-details button{
+    background:#c56612;
+    color:white;
+    width: 500px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    text-align: center;
+    padding: 10px 15px;
+ 
+}
+
+
